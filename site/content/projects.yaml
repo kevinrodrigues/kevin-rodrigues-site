@@ -1,0 +1,34 @@
+- name: Use and Forward in SCSS
+  url: https://kevin-rodrigues-dev-blog.netlify.app/why-use-and-forward-is-so-useful
+  description: Why use and forward is so useful?
+  status: live
+  tags:
+    - SCSS
+    - use
+    - forward
+  icon: website
+  image: images/project-1.jpg
+
+- name: TDD
+  url: https://kevin-rodrigues-dev-blog.netlify.app/tdd-what-is-it-and-why-is-it-so-useful
+  description: TDD - What is it and why is it so useful?
+  status: live
+  tags:
+    - JavaScript
+    - Jest
+    - Jasmine
+    - TDD
+  icon: website
+  image: images/project-2.jpg
+
+- name: Unit Testing
+  url: https://kevin-rodrigues-dev-blog.netlify.app/unit-testing-my-first-experience
+  description: Unit testing - My first experience
+  status: live
+  tags:
+    - JavaScript
+    - Jest
+    - Jasmine
+    - TDD
+  icon: website
+  image: images/project.jpg

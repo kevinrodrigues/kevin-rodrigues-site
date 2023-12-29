@@ -1,0 +1,30 @@
+- profile:
+  initials: KR
+  name: Kevin Rodrigues
+  profession: Senior Engineer
+  image: images/profile.jpg
+  location: London, UK
+  relocation: false
+  company: JET
+  for_hire: false
+  focus: Teaching web development
+  focus_url: https://gatsbyjs.org
+  about: |
+    Welcome! I'm a Senior Engineer specialising in frontend technologies.
+
+  skills:
+    - JavaScript
+    - HTML / CSS
+    - VueJS
+    - Lit
+    - TypeScript
+  tools:
+    - VueJS
+    - Lit
+    - TypeScript
+    - Unit Testing
+  budget:
+    currency: £
+    min: 5
+    max: 30
+    default: 10

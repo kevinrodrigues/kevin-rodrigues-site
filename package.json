@@ -1,27 +1,18 @@
 {
   "private": true,
-  "name": "personal-site",
-  "description": "Kevin Rodrigues - personal site",
-  "version": "0.2.11",
-  "starter-name": "gatsby-starter-portfolio-cara",
+  "version": "2.0.1",
+  "main": "index.js",
+  "license": "MIT",
   "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "start": "gatsby develop",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "build": "yarn workspace site build",
+    "clean": "yarn workspace site clean",
+    "develop": "yarn workspace site develop"
   },
+  "workspaces": [
+    "gatsby-theme-intro",
+    "site"
+  ],
   "dependencies": {
-    "@lekoarts/gatsby-theme-cara": "^3.0.0",
-    "gatsby": "^4.12.1",
-    "gatsby-plugin-gatsby-cloud": "^4.12.1",
-    "gatsby-plugin-manifest": "^4.12.1",
-    "gatsby-plugin-webpack-bundle-analyser-v2": "^1.1.27",
-    "logrocket": "^3.0.0",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0"
-  },
-  "devDependencies": {
-    "cross-env": "^7.0.3"
+    "logrocket": "^7.0.0"
   }
 }
